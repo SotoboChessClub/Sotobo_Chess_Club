@@ -112,6 +112,7 @@ p {
     align-items: center;
     gap: 50px;
     margin-top: 40px;
+    flex-direction: row-reverse;
 }
 
 .event-feature img {
