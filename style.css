@@ -107,6 +107,41 @@ p {
     line-height: 1.9;
 }
 
+.event-feature {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.event-feature img {
+    width: 50%;
+    max-width: 500px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.event-info {
+    flex: 1;
+}
+
+.event-info h3,
+.event-online h3 {
+    color: #172d4f;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.event-info p,
+.event-online p {
+    line-height: 1.8;
+}
+
+.event-online {
+    margin-top: 60px;
+}
+
 @media (max-width: 768px) {
 
     .header-inner {
@@ -143,4 +178,16 @@ p {
     h2 {
         font-size: 26px;
     }
+
+    .event-feature {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .event-feature img {
+        width: 100%;
+        height: auto;
+    }
+
+
 }
